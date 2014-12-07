@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import url("oswald_bold/stylesheet.css");
+@font-face {
+ font-family: 'ebgaramond regular1';
+ src: url('ebgaramond-regular-webfont.eot');
+ src: url('ebgaramond-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('ebgaramond-regular-webfont.woff') format('woff'),
+  url('ebgaramond-regular-webfont.ttf') format('truetype'),
+  url('ebgaramond-regular-webfont.svg') format('svg');
+}
+
+body,td,th {
+ font-size: 12px;
+ color: #000;
+}
+body {
+ background-image: url(../images/pilotwinewebhome2.jpg);
+ background-repeat: no-repeat;
+ background-position: right top;
+ margin: 0px;
+}
+section {
+ position: relative;
+ width: 80%;
+ height: auto;
+ padding: 5px;
+ float: left;
+ right: 5%;
+ left: 5%;
+}
+.textbody {
+ font-family: "ebgaramond regular1";
+ font-size: 16px;
+}
+.textheader2 {
+	font-family: "ebgaramond regular1";
+	font-size: 18px;
+	color: #DED6CC;	
+}
+.textheader1 {
+	font-family:"oswald bold";
+	font-size: 20px;
+}
+nav {
+margin-left: 0px;
+padding-left: 0px;
+ float: left;
+ position: absolute; 
+ bottom: 0; 
+ left: 1px;
+ width: 100%;
+ height: 81px;
+ z-index: 2;
+ text-align: center;
+ /*clear: both;*/
+}
